@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		840D8E711E5F6DA300308792 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840D8E701E5F6DA300308792 /* AppDelegate.swift */; };
-		840D8E731E5F6DA300308792 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840D8E721E5F6DA300308792 /* ViewController.swift */; };
 		840D8E761E5F6DA300308792 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840D8E741E5F6DA300308792 /* Main.storyboard */; };
 		840D8E781E5F6DA300308792 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840D8E771E5F6DA300308792 /* Assets.xcassets */; };
 		840D8E7B1E5F6DA300308792 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840D8E791E5F6DA300308792 /* LaunchScreen.storyboard */; };
 		840D8E861E5F6DA300308792 /* TraumaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840D8E851E5F6DA300308792 /* TraumaAppTests.swift */; };
 		840D8E911E5F6DA300308792 /* TraumaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840D8E901E5F6DA300308792 /* TraumaAppUITests.swift */; };
+		840D8EA01E60842500308792 /* FoldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840D8E9F1E60842500308792 /* FoldingCell.swift */; };
+		840D8EA21E60842A00308792 /* DemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840D8EA11E60842A00308792 /* DemoCell.swift */; };
+		84391C9B1E64CE73005E7885 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84391C9A1E64CE73005E7885 /* MainTableViewController.swift */; };
+		845C2AA61E60D22A00369593 /* TenSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845C2AA51E60D22A00369593 /* TenSteps.swift */; };
+		A0B0649FF8F0390A242F90EF /* Pods_TraumaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF16F45D6805755C7F5069F /* Pods_TraumaApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		57EABD1DFD851644CC275295 /* Pods-TraumaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TraumaApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TraumaApp/Pods-TraumaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6709DF4614BDDC96FC37DB0A /* Pods-TraumaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TraumaApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TraumaApp/Pods-TraumaApp.release.xcconfig"; sourceTree = "<group>"; };
+		6BF16F45D6805755C7F5069F /* Pods_TraumaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TraumaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		840D8E6D1E5F6DA300308792 /* TraumaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TraumaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		840D8E701E5F6DA300308792 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		840D8E721E5F6DA300308792 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		840D8E751E5F6DA300308792 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		840D8E771E5F6DA300308792 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		840D8E7A1E5F6DA300308792 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,10 @@
 		840D8E8C1E5F6DA300308792 /* TraumaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TraumaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		840D8E901E5F6DA300308792 /* TraumaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraumaAppUITests.swift; sourceTree = "<group>"; };
 		840D8E921E5F6DA300308792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840D8E9F1E60842500308792 /* FoldingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoldingCell.swift; sourceTree = "<group>"; };
+		840D8EA11E60842A00308792 /* DemoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoCell.swift; sourceTree = "<group>"; };
+		84391C9A1E64CE73005E7885 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTableViewController.swift; path = ../MainTableViewController.swift; sourceTree = "<group>"; };
+		845C2AA51E60D22A00369593 /* TenSteps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TenSteps.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0B0649FF8F0390A242F90EF /* Pods_TraumaApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +85,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57E4CA379CE6556AF8B32407 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BF16F45D6805755C7F5069F /* Pods_TraumaApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B3F3B6ADFBB8DC219602ED7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57EABD1DFD851644CC275295 /* Pods-TraumaApp.debug.xcconfig */,
+				6709DF4614BDDC96FC37DB0A /* Pods-TraumaApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		840D8E641E5F6DA300308792 = {
 			isa = PBXGroup;
 			children = (
+				840D8E9E1E60839B00308792 /* Cells */,
 				840D8E6F1E5F6DA300308792 /* TraumaApp */,
 				840D8E841E5F6DA300308792 /* TraumaAppTests */,
 				840D8E8F1E5F6DA300308792 /* TraumaAppUITests */,
 				840D8E6E1E5F6DA300308792 /* Products */,
+				6B3F3B6ADFBB8DC219602ED7 /* Pods */,
+				57E4CA379CE6556AF8B32407 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				840D8E701E5F6DA300308792 /* AppDelegate.swift */,
-				840D8E721E5F6DA300308792 /* ViewController.swift */,
+				84391C9A1E64CE73005E7885 /* MainTableViewController.swift */,
 				840D8E741E5F6DA300308792 /* Main.storyboard */,
 				840D8E771E5F6DA300308792 /* Assets.xcassets */,
 				840D8E791E5F6DA300308792 /* LaunchScreen.storyboard */,
@@ -125,6 +156,24 @@
 			path = TraumaAppUITests;
 			sourceTree = "<group>";
 		};
+		840D8E9E1E60839B00308792 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				840D8EA11E60842A00308792 /* DemoCell.swift */,
+				840D8E9F1E60842500308792 /* FoldingCell.swift */,
+				845C2AA41E60D1D400369593 /* Models */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		845C2AA41E60D1D400369593 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				845C2AA51E60D22A00369593 /* TenSteps.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 840D8E951E5F6DA300308792 /* Build configuration list for PBXNativeTarget "TraumaApp" */;
 			buildPhases = (
+				499CD18D54EF50E84ECE5CF5 /* [CP] Check Pods Manifest.lock */,
 				840D8E691E5F6DA300308792 /* Sources */,
 				840D8E6A1E5F6DA300308792 /* Frameworks */,
 				840D8E6B1E5F6DA300308792 /* Resources */,
+				A31B59A01B58E2637E14C8EB /* [CP] Embed Pods Frameworks */,
+				86E15C22EFD4859CCD598543 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +306,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		499CD18D54EF50E84ECE5CF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		86E15C22EFD4859CCD598543 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TraumaApp/Pods-TraumaApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A31B59A01B58E2637E14C8EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TraumaApp/Pods-TraumaApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		840D8E691E5F6DA300308792 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				840D8E731E5F6DA300308792 /* ViewController.swift in Sources */,
 				840D8E711E5F6DA300308792 /* AppDelegate.swift in Sources */,
+				840D8EA01E60842500308792 /* FoldingCell.swift in Sources */,
+				840D8EA21E60842A00308792 /* DemoCell.swift in Sources */,
+				84391C9B1E64CE73005E7885 /* MainTableViewController.swift in Sources */,
+				845C2AA61E60D22A00369593 /* TenSteps.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +513,7 @@
 		};
 		840D8E961E5F6DA300308792 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57EABD1DFD851644CC275295 /* Pods-TraumaApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TraumaApp/Info.plist;
@@ -422,6 +526,7 @@
 		};
 		840D8E971E5F6DA300308792 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6709DF4614BDDC96FC37DB0A /* Pods-TraumaApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TraumaApp/Info.plist;
@@ -505,6 +610,7 @@
 				840D8E971E5F6DA300308792 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		840D8E981E5F6DA300308792 /* Build configuration list for PBXNativeTarget "TraumaAppTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +619,7 @@
 				840D8E9A1E5F6DA300308792 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		840D8E9B1E5F6DA300308792 /* Build configuration list for PBXNativeTarget "TraumaAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +628,7 @@
 				840D8E9D1E5F6DA300308792 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
